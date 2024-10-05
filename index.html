@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>记账网页</title>
+    <title>今日支出</title>
     <style>
         /* 页面整体布局 */
         body {
@@ -61,10 +61,10 @@
     </style>
 </head>
 <body>
-    <h1>今天的支出：<span id="today-expense">0</span>元</h1>
-    <input type="number" id="expense-input" placeholder="输入支出金额">
-    <button onclick="addExpense()">添加支出</button>
-    <button onclick="subtractExpense()">减少支出</button>
+    <h1>今天消费了: <span id="today-expense">0</span> 元</h1>
+    <input type="number" id="expense-input" placeholder="可恶的人类你又花了多少！">
+    <button onclick="addExpense()">添加消费</button>
+    <button onclick="subtractExpense()">减少消费</button>
 
     <script src="app.js"></script>
 </body>
